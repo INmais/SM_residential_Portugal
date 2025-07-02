@@ -26,7 +26,7 @@ Two datasets examples are available for testing and demonstration purposes:
 ### 🔧 Dataset Structure
 
 * **Format:** Parquet
-* **Temporal Granularity:** Assumed to be minute-level
+* **Temporal Granularity:** Minute-level
 * **Devices:** Identified by `device_slug`
 * **Channels Available:** 19
 * **Columns:**
@@ -54,6 +54,8 @@ Two datasets examples are available for testing and demonstration purposes:
 | `r1eae` | Active energy export – Off-peak (rate 1) | kWh  | Export    |
 | `r2eae` | Active energy export – Peak (rate 2)     | kWh  | Export    |
 | `r3eae` | Active energy export – Shoulder (rate 3) | kWh  | Export    |
+| `tiae`  | Active energy import – Total             | kWh  | Import    |
+| `teae`  | Active energy export – Total             | kWh  | Export    |
 
 ---
 
