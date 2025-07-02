@@ -1,8 +1,10 @@
 # SM_residential_Portugal
 
+## Electric energy smart meter data collected via HAN port in Portugal, from 2020 to 2025. Anonymized 15-minute temporal resolution, Energy import/export per tariff.
+### C.D. Henriques, C.A. Silva; (2025) 
 
 
-## 📊 Energy Dataset – HAN Interface from E-REDES
+### 📊 Energy Dataset – HAN Interface from E-REDES
 Smart meter eletricity data collected through HAN port for residential sector in Portugal. Each Parquet file corresponds to one calendar month of continuous data collection and is organized by timestamp, measurement channel, and device identifier.
 
 ---
